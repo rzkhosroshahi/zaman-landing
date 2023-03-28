@@ -93,7 +93,6 @@ export const ChangeLang = styled.p`
 `
 
 export const Description = styled.p`
-  cursor: pointer;
   body[dir=ltr] & {
     line-height: 1.5;
   }

@@ -4,5 +4,5 @@ export default {
   github: 'github',
   fa: 'farsi',
   support: 'Support',
-  description: 'Zaman is a lightweight React component that helps you have a react Jalali/Georgian datepicker. Zaman, also has a range datepicker and timepicker. in addition, you can simply customize the appearance of the module and make it more aligned with your designs.'
+  description: 'It\'s a lightweight React component for creating a Jalali/Georgian datepicker. There is also a range datepicker and timepicker in Zaman. The module can also be customized to match the appearance of your designs.'
 }
