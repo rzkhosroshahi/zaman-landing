@@ -2,14 +2,15 @@ import styled from '@emotion/styled'
 
 export const Container = styled.header`
   min-height: 100vh;
-  padding-top: 64px;
+  padding-top: 44px;
   padding-right: 40px;
   padding-left: 40px;
 `
 export const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
-  padding-bottom: 80px;
+  align-items: center;
+  padding-bottom: 64px;
 `
 export const Link = styled.a`
   color: black;
@@ -66,13 +67,19 @@ export const InstallationText = styled.div`
   direction: ltr;
   display: flex;
   align-items: center;
-  padding: 24px;
+  padding: 24px 0 24px 12px;
   gap: 24px;
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
   monospace;
-  width: 365px;
   height: 72px;
   border: 1px solid #DEDEDE;
+  flex-grow: 1;
+  
+  @media only screen and (min-width: 768px) {
+    flex-grow: unset;
+    width: 365px;
+    padding: 24px;
+  }
 `
 export const GithubIconWrapper = styled.a`
   display: flex;
