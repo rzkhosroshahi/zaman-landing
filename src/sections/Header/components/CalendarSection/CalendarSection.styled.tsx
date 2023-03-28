@@ -43,8 +43,8 @@ export const PatternBack2 = styled.div`
   mix-blend-mode: color;
   background-color: ${props => props.theme.accentColor};
   background-blend-mode: luminosity;
-  bottom: 0;
-  left: -70px;
+  bottom: 45px;
+  left: -80px;
 `
 export const MockDatePicker = styled.div`
   width: 320px;
