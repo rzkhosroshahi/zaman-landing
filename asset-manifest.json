@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/zaman-landing/static/css/main.73522808.css",
-    "main.js": "/zaman-landing/static/js/main.d1d44f17.js",
+    "main.js": "/zaman-landing/static/js/main.75adf0b8.js",
     "static/js/787.14eb1c7e.chunk.js": "/zaman-landing/static/js/787.14eb1c7e.chunk.js",
     "static/media/pattern.png": "/zaman-landing/static/media/pattern.ede118f040fe3f386385.png",
     "index.html": "/zaman-landing/index.html",
     "main.73522808.css.map": "/zaman-landing/static/css/main.73522808.css.map",
-    "main.d1d44f17.js.map": "/zaman-landing/static/js/main.d1d44f17.js.map",
+    "main.75adf0b8.js.map": "/zaman-landing/static/js/main.75adf0b8.js.map",
     "787.14eb1c7e.chunk.js.map": "/zaman-landing/static/js/787.14eb1c7e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.73522808.css",
-    "static/js/main.d1d44f17.js"
+    "static/js/main.75adf0b8.js"
   ]
 }
