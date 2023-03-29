@@ -2,6 +2,8 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 import CopyIcon from '../../components/CopyIcon'
 import GithubIcon from '../../components/GithubIcon'
+import useCopyToClipboard from '../../hooks/useCopyToClipboard'
+import CalendarSection from './components/CalendarSection'
 import {
   ChangeLang,
   Container, Description,
@@ -13,8 +15,6 @@ import {
   Title,
   Wrapper
 } from './Header.styled'
-import CalendarSection from './components/CalendarSection'
-import useCopyToClipboard from '../hooks/useCopyToClipboard'
 
 const installationText:string = 'yarn add zaman'
 export const Header = () => {
