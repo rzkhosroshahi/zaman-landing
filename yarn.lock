@@ -9688,10 +9688,10 @@ yocto-queue@^0.1.0:
   resolved "https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
-zaman@^2.0.5-beta:
-  version "2.0.5-beta"
-  resolved "https://registry.yarnpkg.com/zaman/-/zaman-2.0.5-beta.tgz#42e832a5d10ba9d6333c646c18478a63c8914927"
-  integrity sha512-hs8jDXZ7fIsXj/fhVhPF1i/Hruuub4M3heJWuciKTJoOOgCTPvhOOoMHMU41mgRi/7TOwKyXPVpOmq087IUVVQ==
+zaman@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/zaman/-/zaman-2.0.1.tgz#1053433e6051ed4e7307149535d17967f7d23368"
+  integrity sha512-bKPImZDyJ3M+lJUNdQKQ/chWX1mWaDyIuF8Gfwx/r4xOlKYgbcd+P35IUYkkpiLTcVNcVS/uDa0wUEWAv7z3QQ==
   dependencies:
     "@emotion/react" "^11.10.5"
     "@emotion/styled" "^11.10.5"
