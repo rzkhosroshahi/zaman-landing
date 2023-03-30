@@ -4,16 +4,16 @@ import CopyIcon from '../../components/CopyIcon'
 import GithubIcon from '../../components/GithubIcon'
 import useCopyToClipboard from '../../hooks/useCopyToClipboard'
 import CalendarSection from './components/CalendarSection'
+import Nav from '../../components/Nav'
 import {
-  ChangeLang,
-  Container, Description,
+  Container,
+  Wrapper,
+  Title,
+  Description,
   GithubIconWrapper,
   InfoWrapper,
   Installation,
-  InstallationText, Link, Menu,
-  Nav, Support,
-  Title,
-  Wrapper
+  InstallationText
 } from './Header.styled'
 
 const installationText:string = 'yarn add zaman'
@@ -21,28 +21,9 @@ export const Header = () => {
   const { t, i18n } = useTranslation(['header'])
   const [copy] = useCopyToClipboard()
 
-  const changeLanguage = () => {
-    const lng = i18n.language === 'fa' ? 'en' : 'fa'
-    i18n.changeLanguage(lng)
-      .then(() => {
-        document.body.dir = i18n.dir()
-      })
-  }
   return (
     <Container>
-      <Nav>
-        <Menu>
-          <Link href="https://github.com/rzkhosroshahi/zaman">
-            {t('docs')}
-          </Link>
-          <ChangeLang onClick={changeLanguage}>
-            {i18n.language === 'fa' ? t('en') : t('fa')}
-          </ChangeLang>
-        </Menu>
-        <Support href="https://zarinp.al/rzkhosroshahi" target="_blank">
-          {t('support')}
-        </Support>
-      </Nav>
+      <Nav />
       <Wrapper>
         <InfoWrapper>
           <Title>
