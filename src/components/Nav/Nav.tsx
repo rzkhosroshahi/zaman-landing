@@ -1,6 +1,6 @@
 import React from 'react'
-import { ChangeLang, Link, Menu, Support, Wrapper } from './Nav.styled'
 import { useTranslation } from 'react-i18next'
+import { ChangeLang, Link, Menu, Support, Wrapper, SupportWrapper } from './Nav.styled'
 
 export const Nav = () => {
   const { t, i18n } = useTranslation(['header'])
@@ -18,13 +18,15 @@ export const Nav = () => {
         <Link href="https://github.com/rzkhosroshahi/zaman">
           {t('docs')}
         </Link>
+      </Menu>
+      <SupportWrapper>
         <ChangeLang onClick={changeLanguage}>
           {i18n.language === 'fa' ? t('en') : t('fa')}
         </ChangeLang>
-      </Menu>
-      <Support href="https://zarinp.al/rzkhosroshahi" target="_blank">
-        {t('support')}
-      </Support>
+        <Support href="https://zarinp.al/rzkhosroshahi" target="_blank">
+          {t('support')}
+        </Support>
+      </SupportWrapper>
     </Wrapper>
   )
 }
