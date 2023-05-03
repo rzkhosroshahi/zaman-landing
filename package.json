@@ -22,7 +22,7 @@
     "react-scripts": "5.0.1",
     "typescript": "^4.4.2",
     "web-vitals": "^2.1.0",
-    "zaman": "^2.0.4"
+    "zaman": "^2.0.6"
   },
   "scripts": {
     "dev": "react-scripts start",
