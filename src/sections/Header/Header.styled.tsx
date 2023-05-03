@@ -1,6 +1,9 @@
 import styled from '@emotion/styled'
 
 export const Container = styled.header`
+  display: flex;
+  flex-direction: column;
+  gap: 84px;
   min-height: 100vh;
   padding-top: 44px;
   padding-right: 40px;
